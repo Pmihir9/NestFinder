@@ -1,0 +1,22 @@
+DATABASE_URL=mongodb+srv://20mihir01_db_user:Nestfinder01@cluster0.d9jdc5a.mongodb.net/estatedb?appName=Cluster0
+JWT_SECRET_KEY="abcdefghijklmnopqrstuvwxyz"
+CLIENT_URL="http://localhost:5173"
+
+
+Terminal 1 — API
+
+powershell
+cd C:\Users\20mih\Documents\full-stack-estate-main\api
+node app.js
+
+Terminal 2 — Socket
+
+powershell
+cd C:\Users\20mih\Documents\full-stack-estate-main\socket
+node app.js
+
+Terminal 3 — Client
+
+powershell
+cd C:\Users\20mih\Documents\full-stack-estate-main\client
+npm run dev
